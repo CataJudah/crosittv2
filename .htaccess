@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^main$ /MainPage.html [L]
+RewriteRule ^servicii$ /Servicii.html [L]
