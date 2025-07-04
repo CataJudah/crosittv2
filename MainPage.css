@@ -227,6 +227,7 @@ nav ul li a:hover {
     text-align: center;
     box-shadow: 0 0 0 transparent;
     transition: .32s !important;
+	overflow: hidden;
 }
 
 .service-item p, .service-item h3, .service-item a {
