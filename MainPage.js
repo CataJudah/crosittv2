@@ -30,7 +30,6 @@ const scrollContainers = document.querySelectorAll("#infiniteScroll--left");
 
 scrollContainers.forEach((container) => {
 	const scrollWidth = container.scrollWidth;
-	let isScrollingPaused = false;
 
 	window.addEventListener("load", () => {
 		self.setInterval(() => {
