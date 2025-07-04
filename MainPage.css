@@ -348,11 +348,12 @@ nav ul li a:hover {
 
 
 footer {
-    background-color: #1c1c1c;
+    background-color: #1e1e1e;
     color: #ccc;
     text-align: center;
     padding: 20px 0;
     font-size: 0.9em;
+    border-top: 20px solid #121212;
 }
 
 @media (max-width: 840px) {
