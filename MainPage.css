@@ -307,7 +307,7 @@ nav ul li a:hover {
     margin-bottom: 30px;
     padding-top: 20px;
 
-    overflow-x: scroll;
+    overflow-x: hidden;
     white-space: nowrap;
     -ms-overflow-style: none;
     scrollbar-width: none;
