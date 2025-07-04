@@ -54,16 +54,16 @@ scrollContainers.forEach((container) => {
 		return rect.right > 0;
 	}
 
-	function pauseScrolling() {
-		isScrollingPaused = true;
-	}
+	// function pauseScrolling() {
+	// 	isScrollingPaused = true;
+	// }
 
-	function resumeScrolling() {
-		isScrollingPaused = false;
-	}
-	const allArticles = container.querySelectorAll(".partner-logo");
-	for (let article of allArticles) {
-		article.addEventListener("mouseenter", pauseScrolling);
-		article.addEventListener("mouseleave", resumeScrolling);
-	}
+	// function resumeScrolling() {
+	// 	isScrollingPaused = false;
+	// }
+	// const allArticles = container.querySelectorAll(".partner-logo");
+	// for (let article of allArticles) {
+	// 	article.addEventListener("mouseenter", pauseScrolling);
+	// 	article.addEventListener("mouseleave", resumeScrolling);
+	// }
 });
