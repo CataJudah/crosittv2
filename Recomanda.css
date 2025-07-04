@@ -139,7 +139,7 @@ ul li {
 .image-text-grid div ul li {
     margin: 0;
 
-    display: inline-flex;
+/*     display: inline-flex; */
     padding: 12px 12px;
     background-color: rgba(252, 134, 134, 0.05);
     color: rgb(252, 134, 134);
