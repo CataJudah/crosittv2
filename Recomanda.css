@@ -195,6 +195,12 @@ ul li {
     
     background-color: #151515;
     border-radius: 15px;
+
+    transition: .32s !important;
+}
+
+.services-grid .projects-container:hover {
+    transform: translateY(-5px) !important;
 }
 
 .services-grid .projects-container .texts {
