@@ -174,7 +174,7 @@ ul li {
     height: 100px;
     overflow: hidden;
     object-fit: cover;
-    cursor: pointer;
+/*     cursor: pointer; */
     background-size: cover;
 
     border-bottom: 1px solid #202020;
