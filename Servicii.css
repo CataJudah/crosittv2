@@ -34,6 +34,7 @@ body {
     display: none;
     position: fixed;
     width: 100%;
+    border-radius: 0 0 15px 15px;
     background-color: #1e1e1e;
     border-top: 1px solid #2c2c2c;
     filter: drop-shadow(0 0 15px #111);
