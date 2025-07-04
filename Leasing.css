@@ -1,0 +1,290 @@
+body {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: #f83545;
+  color: #FFF;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(120, 135, 156, .15);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f83545;
+  border-radius: 69px;
+}
+
+.popup-menu {
+    z-index: 99;
+
+    display: none;
+    position: fixed;
+    width: 100%;
+    background-color: #1e1e1e;
+    border-top: 1px solid #2c2c2c;
+    filter: drop-shadow(0 0 15px #111);
+}
+
+.popup-menu ul {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.popup-menu ul a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.popup-menu ul a:hover {
+    color: rgb(252, 134, 134);
+    text-decoration: none;
+}
+
+header {
+  background-color: #1e1e1e;
+  position: sticky;
+  display: flex;
+  align-items: center;
+
+  min-height: 120px;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+header.scrolled {
+  background-color: #111;
+  padding: 10px 0;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f83545;
+}
+
+.logo-link {
+  display: flex;
+  align-items: baseline; 
+  text-decoration: none;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.logo-x {
+  height: 1.2em;
+  margin-left: -1px;
+  transform: translateY(2px); 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.leasing-hero {
+  background: url('https://matlensilver.com/wp-content/uploads/2021/07/IT-Staffing.gif') center/cover no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.leasing-hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leasing-hero h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* Avantaje Section */
+.avantaje-section {
+  background-color: #1a1a1a;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.avantaje-section h2 {
+  color: #f83545;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+.avantaje-detaliate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.avantaj-detaliu {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-between;
+
+  border: 2px solid #252525;
+  padding: 40px 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 0 transparent;
+  transition: .32s !important;
+}
+
+.avantaj-detaliu:hover {
+    transform: translateY(-5px) !important;
+}
+
+.avantaj-detaliu .texts {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.avantaj-detaliu .icon {
+  font-size: 2.5em;
+  color: #f83545;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.avantaj-detaliu h3 {
+  margin-top: 25px;
+  font-size: 1.4em;
+  color: #f83545;
+}
+
+.avantaj-detaliu p {
+  color: #ccc;
+  margin-top: 0px;
+  font-size: 1em;
+  line-height: 1;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 0.9em;
+}
+
+
+@media (max-width: 840px) {
+    header {
+        height: 20px !important;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        line-height: 1;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .logo-text {
+        display: none !important;
+    }
+
+    .collapse-btn {
+        display: flex !important;
+    }
+
+    .nav-links li {
+      display: none !important;
+    }
+
+    .hero h1 {
+        font-size: 2.75em;
+    }
+
+}
+
+.collapse-btn {
+    display: none;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    background-color: #252525;
+    border: 1px solid #353535;
+    cursor: pointer;
+}
+
+.collapse-btn i {
+    color: #777;
+    font-size: 11px;
+    font-weight: 400;
+}

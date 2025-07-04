@@ -1,0 +1,399 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+}
+
+::selection {
+  background-color: #f8354546;
+  /* color: #FFF; */
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(120, 135, 156, .15);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f83545;
+  border-radius: 69px;
+}
+
+.popup-menu {
+    z-index: 99;
+
+    display: none;
+    position: fixed;
+    width: 100%;
+    background-color: #1e1e1e;
+    border-top: 1px solid #2c2c2c;
+    filter: drop-shadow(0 0 15px #111);
+}
+
+.popup-menu ul {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.popup-menu ul a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.popup-menu ul a:hover {
+    color: rgb(252, 134, 134);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.dark-bg {
+    background-color: #181818;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.8em;
+    color: #f83545;
+    margin-bottom: 40px;
+}
+
+
+ul {
+  padding: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
+                url('https://media1.giphy.com/media/L8K62iTDkzGX6/giphy.gif?cid=6c09b952gy9072x7nk803cdcezveuc4rjvco23tod4mstbko&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-size: cover;
+    background-position: center;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #f83545;
+}
+
+.hero .subtitlu {
+    font-size: 1.4em;
+    color: #bbb;
+}
+
+.image-text-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* gap: 40px; */
+    justify-content: center;
+}
+
+.image-text-grid > div {
+  flex: 0 1 100%;
+  text-align: center;
+}
+
+.image-text-grid img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(206, 13, 13, 0.4);
+}
+
+.image-text-grid div ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.image-text-grid div ul li {
+    margin: 0;
+
+    display: inline-flex;
+    padding: 12px 12px;
+    background-color: rgba(252, 134, 134, 0.05);
+    color: rgb(252, 134, 134);
+    border-radius: 10px;
+    list-style: none;
+
+    cursor: default;
+    transition: .32s ease-in-out;
+}
+
+.image-text-grid div ul li:hover {
+    background-color: rgba(252, 134, 134, 0.07);
+    color: rgb(252, 134, 134);
+}
+
+#certificari .container .services-grid img {
+    width: 100%;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.services-grid .image-bg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    background-size: cover;
+
+    border-bottom: 1px solid #202020;
+}
+
+.services-grid .image-bg svg {
+    max-height: 60%;
+    transition: .32s ease-in-out;
+}
+
+.services-grid .projects-container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 100%;
+    
+    background-color: #151515;
+    border-radius: 15px;
+}
+
+.services-grid .projects-container .texts {
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+
+    gap: 5px;
+}
+
+.services-grid .projects-container .texts .title {
+    font-size: 20px;
+    font-weight: 500;
+
+    color: #FBF8FF;
+}
+
+.services-grid .projects-container .texts .desc {
+    font-size: 15px;
+    font-weight: 500;
+
+    color: #817E86;
+}
+
+.services-grid .projects-container ul {
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin: 0;
+    text-align: left;
+}
+
+.services-grid .projects-container ul li {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    text-align: left;
+
+    gap: 10px;
+    margin: 0;
+}
+
+.services-grid .projects-container ul li i {
+    font-size: 14px;
+    color: #f83545;
+}
+
+.services-grid .projects-container ul li p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #ccc;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 0.9em;
+}
+
+header {
+  background-color: #1e1e1e;
+  /* padding: 20px 0; */
+  min-height: 120px;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+header .container {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #f5f5f5;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+}
+
+nav ul li a {
+    font-size: 17px;
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f83545;
+}
+
+.logo-link {
+  display: flex;
+  align-items: baseline; 
+  text-decoration: none;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: bold;
+  /* line-height: 1; */
+}
+
+.logo-x {
+  height: 1.2em;
+  margin-left: -1px;
+  transform: translateY(2px); 
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2em;
+    }
+
+    .image-text-grid {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 840px) {
+    header {
+        height: 20px !important;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        line-height: 1;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .logo-text {
+        display: none !important;
+    }
+
+    .collapse-btn {
+        display: flex !important;
+    }
+    
+    .image-text-grid div ul li {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .hero h1 {
+        font-size: 2.75em;
+    }
+}
+
+.collapse-btn {
+    display: none;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    background-color: #252525;
+    border: 1px solid #353535;
+    cursor: pointer;
+}
+
+.collapse-btn i {
+    color: #777;
+    font-size: 11px;
+    font-weight: 400;
+}
