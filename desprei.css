@@ -368,8 +368,9 @@ footer {
     justify-content: center;
     align-items: center;
     border-radius: 35px;
-    background-color: #252525;
-    border: 1px solid #353535;
+/*     border: 1px solid #353535; */
+    box-shadow: 0 0 0 7px #222;
+    background-color: #282828;
     cursor: pointer;
 }
 
