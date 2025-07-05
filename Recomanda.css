@@ -196,6 +196,8 @@ ul li {
     
     background: linear-gradient(130deg, rgba(255, 255, 255, 0.01) 0.05%, rgba(255, 255, 255, 0.035) 51.04%, rgba(255, 255, 255, 0.01) 99.95%);
     border-radius: 15px;
+    background-position: 300% 100%;
+    background-repeat: repeat-x;
     
     transition: .32s !important;
 }
@@ -203,22 +205,16 @@ ul li {
 .services-grid .projects-container:hover {
     transform: translateY(-5px) !important;
     
-    animation: anim 1s ease-in-out;
+    animation: animateBg 1s linear infinite;
 }
 
-@keyframes anim {
-    0% {
-        background: linear-gradient(130deg, rgba(255, 255, 255, 0.01) 0.05%, rgba(255, 255, 255, 0.035) 51.04%, rgba(255, 255, 255, 0.01) 99.95%);
-    }
-    50% {
-        background: linear-gradient(130deg, rgba(255, 255, 255, 0.035) 0.05%, rgba(255, 255, 255, 0.01) 51.04%, rgba(255, 255, 255, 0.01) 99.95%);
-    }
-    75% {
-        background: linear-gradient(130deg, rgba(255, 255, 255, 0.01) 0.05%, rgba(255, 255, 255, 0.01) 51.04%, rgba(255, 255, 255, 0.035) 99.95%);
-    }
-    100% {
-        background: linear-gradient(130deg, rgba(255, 255, 255, 0.01) 0.05%, rgba(255, 255, 255, 0.035) 51.04%, rgba(255, 255, 255, 0.01) 99.95%);
-    }
+@keyframes animateBg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
 }
 
 .services-grid .projects-container .texts {
