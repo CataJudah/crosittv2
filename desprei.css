@@ -8,6 +8,19 @@ body {
     scroll-behavior: smooth;
 }
 
+.language-flags img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.language-flags img:hover {
+    opacity: 0.8;
+}
+
+
 .popup-menu {
     z-index: 99;
 

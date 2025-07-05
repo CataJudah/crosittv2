@@ -22,6 +22,19 @@ body {
   border-radius: 69px;
 }
 
+.language-flags img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.language-flags img:hover {
+    opacity: 0.8;
+}
+
+
 header {
   background-color: #1e1e1e;
   position: sticky;
