@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact - CrossIt</title>
-  <link rel="stylesheet" href="Contact.css" />
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.5.2/css/pro.min.css">
-        <script src="Recomanda.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-ro="Contact - CrossIt" data-en="Contact - CrossIt">Contact - CrossIt</title>
+    <link rel="stylesheet" href="Contact.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.5.2/css/pro.min.css">
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <div class="logo">
-        <a href="MainPage.html" class="logo-link">
-          <img src="Poze/logo2.png" alt="Logo" class="logo-x">
-        </a>
-      </div>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="MainPage.html" class="logo-link">
+                    <img src="Poze/logo2.png" alt="Logo" class="logo-x">
+                </a>
+            </div>
 
-
-      <ul class="nav-links">
-        <div class="collapse-btn" id="toggleButton">
-            <i class="fas fa-bars" id="icon"></i>
+            <ul class="nav-links">
+                <div class="collapse-btn" id="toggleButton">
+                    <i class="fas fa-bars" id="icon"></i>
+                </div>
+                <li><a href="despre-noi.html#despre-noi" data-ro="Despre noi" data-en="About Us">Despre noi</a></li>
+                <li><a href="Servicii.html#servicii" data-ro="Servicii" data-en="Services">Servicii</a></li>
+                <li><a href="Recomanda.html#recomandari" data-ro="Ce ne recomandă" data-en="What Recommends Us">Ce ne recomandă</a></li>
+                <li><a href="Leasing.html#leasing" data-ro="Leasing de personal" data-en="Staff Leasing">Leasing de personal</a></li>
+                <li><a href="Contact.html#contact" data-ro="Contact" data-en="Contact">Contact</a></li>
+                <li class="language-flags">
+                    <img id="enFlag" src="Poze/uk.png" alt="English Flag" style="display: inline-block;">
+                    <img id="roFlag" src="Poze/ro.png" alt="Romanian Flag" style="display: none;">
+                </li>
+            </ul>
         </div>
-        <li><a href="despre-noi.html#despre-noi">Despre noi</a></li>
-        <li><a href="Servicii.html#servicii">Servicii</a></li>
-        <li><a href="Recomanda.html#recomandari">Ce ne recomandă</a></li>
-        <li><a href="Leasing.html#leasing">Leasing de personal</a></li>
-        <li><a href="Contact.html#contact">Contact</a></li>
-      </ul>
-    </div>
-  </header>
+    </header>
 
     <div class="popup-menu">
         <ul>
-            <a href="despre-noi.html#despre-noi">Despre noi</a>
-            <a href="Servicii.html#servicii">Servicii</a>
-            <a href="Recomanda.html#recomandari">Ce ne recomandă</a>
-            <a href="Leasing.html#leasing">Leasing de personal</a>
-            <a href="Contact.html#contact">Contact</a>
+            <a href="despre-noi.html#despre-noi" data-ro="Despre noi" data-en="About Us">Despre noi</a>
+            <a href="Servicii.html#servicii" data-ro="Servicii" data-en="Services">Servicii</a>
+            <a href="Recomanda.html#recomandari" data-ro="Ce ne recomandă" data-en="What Recommends Us">Ce ne recomandă</a>
+            <a href="Leasing.html#leasing" data-ro="Leasing de personal" data-en="Staff Leasing">Leasing de personal</a>
+            <a href="Contact.html#contact" data-ro="Contact" data-en="Contact">Contact</a>
         </ul>
     </div>
 
-  <section class="contact-hero">
-    <div class="contact-hero-overlay">
-      <h1 data-aos="fade-up">Contact</h1>
-    </div>
-  </section>
+    <section class="contact-hero">
+        <div class="contact-hero-overlay">
+            <h1 data-aos="fade-up" data-ro="Contact" data-en="Contact">Contact</h1>
+        </div>
+    </section>
 
-  <section class="contact-main" data-aos="fade-up">
-    <div class="contact-wrapper">
-      <div class="contact-info">
-        <h2>DATE DE CONTACT</h2>
-        <p>Nu ezita să ne contactezi – atât pentru consultanță preliminară, cât și pentru stabilirea unei întâlniri de analiză aplicată nevoilor companiei tale.</p>
-        <br>
-        <ul>
-          <li>📞 <b style="user-select: all;">031 437 9077</b></li>
-          <li>📞 <b style="user-select: all;">031 437 9075</b></li>
-        <br>
-          <li>📧 office@<b>crossit.ro</b></li>
-          <li>📧 sales@<b>crossit.ro</b></li>
-          <li>📧 tehnic@<b>crossit.ro</b></li>
-          <li>📧 helpdesk@<b>crossit.ro</b></li>
-        </ul>
-        <h2>LOCAȚII</h2>
-        <p>📍 Office – Strada Matei Voievod, nr. 48-58 Bucuresti</p>
-      </div>
-      <div class="contact-form" data-aos="fade-up">
-        <form action="https://formspree.io/f/mrbkvgrp" method="POST">
-          <input type="text" placeholder="Nume" name="name" required />
-          <input type="number" placeholder="Telefon" name="phone" required />
-          <input type="email" placeholder="Email" name="email" required />
-          <textarea placeholder="Mesaj" name="message" rows="5" required></textarea>
-          <label class="checkbox">
-            <input type="checkbox" required /> Am citit si sunt de acord cu <a href="#">politica de confidentialitate</a> a site-ului web.
-          </label>
-          <button type="submit">TRIMITE MESAJ</button>
-        </form>
-      </div>
-    </div>
-  </section>
+    <section class="contact-main" data-aos="fade-up">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h2 data-ro="DATE DE CONTACT" data-en="CONTACT DETAILS">DATE DE CONTACT</h2>
+                <p data-ro="Nu ezita să ne contactezi – atât pentru consultanță preliminară, cât și pentru stabilirea unei întâlniri de analiză aplicată nevoilor companiei tale." data-en="Do not hesitate to contact us – for preliminary consultation, as well as for scheduling a meeting to analyze your company's needs.">Nu ezita să ne contactezi – atât pentru consultanță preliminară, cât și pentru stabilirea unei întâlniri de analiză aplicată nevoilor companiei tale.</p>
+                <br>
+                <ul>
+                    <li>📞 <b style="user-select: all;">031 437 9077</b></li>
+                    <li>📞 <b style="user-select: all;">031 437 9075</b></li>
+                    <br>
+                    <li>📧 office@<b>crossit.ro</b></li>
+                    <li>📧 sales@<b>crossit.ro</b></li>
+                    <li>📧 tehnic@<b>crossit.ro</b></li>
+                    <li>📧 helpdesk@<b>crossit.ro</b></li>
+                </ul>
+                <h2 data-ro="LOCAȚII" data-en="LOCATIONS">LOCAȚII</h2>
+                <p data-ro="📍 Office – Strada Matei Voievod, nr. 48-58 Bucuresti" data-en="📍 Office – Matei Voievod Street, no. 48-58 Bucharest">📍 Office – Strada Matei Voievod, nr. 48-58 Bucuresti</p>
+            </div>
+            <div class="contact-form" data-aos="fade-up">
+                <form action="https://formspree.io/f/mrbkvgrp" method="POST">
+                    <input type="text" placeholder="Nume" name="name" required data-ro-placeholder="Nume" data-en-placeholder="Name" />
+                    <input type="number" placeholder="Telefon" name="phone" required data-ro-placeholder="Telefon" data-en-placeholder="Phone" />
+                    <input type="email" placeholder="Email" name="email" required data-ro-placeholder="Email" data-en-placeholder="Email" />
+                    <textarea placeholder="Mesaj" name="message" rows="5" required data-ro-placeholder="Mesaj" data-en-placeholder="Message"></textarea>
+                    <label class="checkbox" data-ro="Am citit si sunt de acord cu" data-en="I have read and agree to the">
+                        <input type="checkbox" required /> <span data-ro="Am citit si sunt de acord cu" data-en="I have read and agree to the">Am citit si sunt de acord cu</span> <a href="#" data-ro="politica de confidentialitate" data-en="privacy policy">politica de confidentialitate</a> <span data-ro="a site-ului web." data-en="of the website.">a site-ului web.</span>
+                    </label>
+                    <button type="submit" data-ro="TRIMITE MESAJ" data-en="SEND MESSAGE">TRIMITE MESAJ</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-  <section class="contact-map" data-aos="zoom-in">
-    <iframe src="https://www.google.com/maps?q=44.437694,26.128167&z=15&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </section>
+    <section class="contact-map" data-aos="zoom-in">
+        <iframe src="https://www.google.com/maps?q=44.437694,26.128167&z=15&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
-  </script>
+    <footer data-aos="fade-in" style="text-align: center; padding: 40px; color: #ccc;" data-ro="&copy; 2025 CrossIt. Toate drepturile rezervate." data-en="&copy; 2025 CrossIt. All rights reserved.">
+        &copy; 2025 CrossIt. Toate drepturile rezervate.
+    </footer>
 
-  <script src="Servicii.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script src="Contact.js"></script>
 </body>
 </html>
