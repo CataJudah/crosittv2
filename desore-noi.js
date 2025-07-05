@@ -55,6 +55,7 @@ document.getElementById("toggleButton").addEventListener("click", function () {
   }
 });
 
+
 const roFlag = document.getElementById('roFlag');
 	const enFlag = document.getElementById('enFlag');
 	let currentLanguage = 'ro';
