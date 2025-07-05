@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CrossIt - Soluții IT Inovatoare</title>
+    <title data-ro="CrossIt - Soluții IT Inovatoare" data-en="CrossIt - Innovative IT Solutions">CrossIt - Soluții IT Inovatoare</title>
     <link rel="stylesheet" href="MainPage.css">
     <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.5.2/css/pro.min.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <style>
+        .language-flags img {
+            width: 30px;
+            height: auto;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        .language-flags img:hover {
+            opacity: 0.8;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,102 +31,122 @@
                 </a>
             </div>
             <nav>
-                
                 <ul>
                     <div class="collapse-btn" id="toggleButton">
                         <i class="fas fa-bars" id="icon"></i>
                     </div>
-                    <li><a href="despre-noi.html#despre-noi">Despre noi</a></li>
-                    <li><a href="Servicii.html#servicii">Servicii</a></li>
-                    <li><a href="Recomanda.html#recomandari">Ce ne recomandă</a></li>
-                    <li><a href="Leasing.html#leasing">Leasing de personal</a></li>
-                    <li><a href="Contact.html#contact">Contact</a></li>
+                    <li><a href="despre-noi.html#despre-noi" data-ro="Despre noi" data-en="About Us">Despre noi</a></li>
+                    <li><a href="Servicii.html#servicii" data-ro="Servicii" data-en="Services">Servicii</a></li>
+                    <li><a href="Recomanda.html#recomandari" data-ro="Ce ne recomandă" data-en="What Recommends Us">Ce ne recomandă</a></li>
+                    <li><a href="Leasing.html#leasing" data-ro="Leasing de personal" data-en="Staff Leasing">Leasing de personal</a></li>
+                    <li><a href="Contact.html#contact" data-ro="Contact" data-en="Contact">Contact</a></li>
+
+                    <li class="language-flags">
+                        <img id="enFlag" src="Poze/en.png" alt="English Flag" style="display: inline-block;">
+                        <img id="roFlag" src="Poze/ro.png" alt="Romanian Flag" style="display: none;">
+                    </li>
                 </ul>
             </nav>
-
-            
         </div>
     </header>
 
     <div class="popup-menu">
         <ul>
-            <a href="despre-noi.html#despre-noi">Despre noi</a>
-            <a href="Servicii.html#servicii">Servicii</a>
-            <a href="Recomanda.html#recomandari">Ce ne recomandă</a>
-            <a href="Leasing.html#leasing">Leasing de personal</a>
-            <a href="Contact.html#contact">Contact</a>
+            <a href="despre-noi.html#despre-noi" data-ro="Despre noi" data-en="About Us">Despre noi</a>
+            <a href="Servicii.html#servicii" data-ro="Servicii" data-en="Services">Servicii</a>
+            <a href="Recomanda.html#recomandari" data-ro="Ce ne recomandă" data-en="What Recommends Us">Ce ne recomandă</a>
+            <a href="Leasing.html#leasing" data-ro="Leasing de personal" data-en="Staff Leasing">Leasing de personal</a>
+            <a href="Contact.html#contact" data-ro="Contact" data-en="Contact">Contact</a>
         </ul>
     </div>
 
     <section id="hero" class="hero">
         <div class="container">
             <div class="hero-content" data-aos="fade-up">
-                <h1>Soluții IT Personalizate pentru Succesul Tău</h1>
-                <p class="subtitlu">Inovație și expertiză pentru a-ți propulsa afacerea în era digitală.</p>
-                <a href="/Servicii.html" class="button primary">Descoperă Serviciile Noastre</a>
-                <a href="/contact.html" class="button secondary">Contactează-ne</a>
+                <h1 data-ro="Soluții IT Personalizate pentru Succesul Tău" data-en="Tailored IT Solutions for Your Success">Soluții IT Personalizate pentru Succesul Tău</h1>
+                <p class="subtitlu" data-ro="Inovație și expertiză pentru a-ți propulsa afacerea în era digitală." data-en="Innovation and expertise to propel your business into the digital era.">Inovație și expertiză pentru a-ți propulsa afacerea în era digitală.</p>
+                <a href="/Servicii.html" class="button primary" data-ro="Descoperă Serviciile Noastre" data-en="Discover Our Services">Descoperă Serviciile Noastre</a>
+                <a href="/contact.html" class="button secondary" data-ro="Contactează-ne" data-en="Contact Us">Contactează-ne</a>
             </div>
         </div>
     </section>
 
     <section class="section" data-aos="fade-up">
         <div class="container">
-            <h2>Despre Noi</h2>
-            <p>Suntem o companie de tehnologie dedicată performanței și inovației, specializată în servicii IT de infrastructură, consultanță tehnologică și leasing de personal. Cu o echipă experimentată și orientată spre soluții eficiente, oferim partenerilor noștri suportul necesar pentru a-și dezvolta și optimiza ecosistemele IT.
+            <h2 data-ro="Despre Noi" data-en="About Us">Despre Noi</h2>
+            <p data-ro="Suntem o companie de tehnologie dedicată performanței și inovației, specializată în servicii IT de infrastructură, consultanță tehnologică și leasing de personal. Cu o echipă experimentată și orientată spre soluții eficiente, oferim partenerilor noștri suportul necesar pentru a-și dezvolta și optimiza ecosistemele IT. Ne adaptăm rapid cerințelor pieței și livrăm servicii personalizate, fie că este vorba de proiectarea și implementarea unei infrastructuri solide, consultanță strategică pentru transformarea digitală sau furnizarea rapidă de specialiști IT calificați, pe termen scurt sau lung. Credem în parteneriate construite pe încredere, transparență și rezultate măsurabile. Misiunea noastră este să fim un aliat de încredere pentru companiile care își doresc stabilitate tehnologică, flexibilitate în echipe și scalabilitate în operațiuni."
+               data-en="We are a technology company dedicated to performance and innovation, specializing in IT infrastructure services, technology consulting, and staff leasing. With an experienced and solution-oriented team, we provide our partners with the necessary support to develop and optimize their IT ecosystems. We quickly adapt to market demands and deliver personalized services, whether it's designing and implementing a robust infrastructure, strategic consulting for digital transformation, or rapidly providing qualified IT specialists for short or long terms. We believe in partnerships built on trust, transparency, and measurable results. Our mission is to be a reliable ally for companies seeking technological stability, team flexibility, and operational scalability.">
+                Suntem o companie de tehnologie dedicată performanței și inovației, specializată în servicii IT de infrastructură, consultanță tehnologică și leasing de personal. Cu o echipă experimentată și orientată spre soluții eficiente, oferim partenerilor noștri suportul necesar pentru a-și dezvolta și optimiza ecosistemele IT.
 
                 Ne adaptăm rapid cerințelor pieței și livrăm servicii personalizate, fie că este vorba de proiectarea și implementarea unei infrastructuri solide, consultanță strategică pentru transformarea digitală sau furnizarea rapidă de specialiști IT calificați, pe termen scurt sau lung.
-                
-                Credem în parteneriate construite pe încredere, transparență și rezultate măsurabile. Misiunea noastră este să fim un aliat de încredere pentru companiile care își doresc stabilitate tehnologică, flexibilitate în echipe și scalabilitate în operațiuni.</p>
-                <a href="/despre-noi.html" style="color: #f83545;">AFLĂ MAI MULTE</a>
+
+                Credem în parteneriate construite pe încredere, transparență și rezultate măsurabile. Misiunea noastră este să fim un aliat de încredere pentru companiile care își doresc stabilitate tehnologică, flexibilitate în echipe și scalabilitate în operațiuni.
+            </p>
+            <a href="/despre-noi.html" style="color: #f83545;" data-ro="AFLĂ MAI MULTE" data-en="FIND OUT MORE">AFLĂ MAI MULTE</a>
         </div>
     </section>
 
     <section class="section dark-bg">
         <div class="container" data-aos="fade-up">
-            <h2>Serviciile Noastre</h2>
+            <h2 data-ro="Serviciile Noastre" data-en="Our Services">Serviciile Noastre</h2>
             <div class="services-grid">
                 <div class="service-item" data-aos="fade-up" data-aos-delay="100">
                     <i class="fas fa-sitemap" style="font-size: 24px;"></i>
-                    <h3>Infrastructură</h3>
-                    <p style="">Construim și optimizăm infrastructura IT în funcție de specificul fiecărui partener, asigurând stabilitate, securitate și scalabilitate. Punem accent pe nevoile reale ale afacerii pentru a configura corect componentele critice: rețele, servere, stocare și virtualizare. Arhitectura este definită împreună cu echipe dedicate, alese în funcție de cerințele fiecărui proiect. Folosim soluții moderne, validate în industrie, pentru ca partenerii noștri să beneficieze de tehnologii actuale, sigure și eficiente. Suntem conectați la dinamica domeniului și integrăm constant cele mai noi tendințe tehnice în livrabilele noastre.</p>
-                    <a href="/Servicii.html" class="learn-more">Detalii</a>
+                    <h3 data-ro="Infrastructură" data-en="Infrastructure">Infrastructură</h3>
+                    <p style="" data-ro="Construim și optimizăm infrastructura IT în funcție de specificul fiecărui partener, asigurând stabilitate, securitate și scalabilitate. Punem accent pe nevoile reale ale afacerii pentru a configura corect componentele critice: rețele, servere, stocare și virtualizare. Arhitectura este definită împreună cu echipe dedicate, alese în funcție de cerințele fiecărui proiect. Folosim soluții moderne, validate în industrie, pentru ca partenerii noștri să beneficieze de tehnologii actuale, sigure și eficiente. Suntem conectați la dinamica domeniului și integrăm constant cele mai noi tendințe tehnice în livrabilele noastre."
+                       data-en="We build and optimize IT infrastructure according to each partner's specific needs, ensuring stability, security, and scalability. We focus on real business needs to correctly configure critical components: networks, servers, storage, and virtualization. The architecture is defined together with dedicated teams, chosen according to each project's requirements. We use modern, industry-validated solutions so that our partners benefit from current, secure, and efficient technologies. We are connected to the dynamics of the field and constantly integrate the latest technical trends into our deliverables.">
+                        Construim și optimizăm infrastructura IT în funcție de specificul fiecărui partener, asigurând stabilitate, securitate și scalabilitate. Punem accent pe nevoile reale ale afacerii pentru a configura corect componentele critice: rețele, servere, stocare și virtualizare. Arhitectura este definită împreună cu echipe dedicate, alese în funcție de cerințele fiecărui proiect. Folosim soluții moderne, validate în industrie, pentru ca partenerii noștri să beneficieze de tehnologii actuale, sigure și eficiente. Suntem conectați la dinamica domeniului și integrăm constant cele mai noi tendințe tehnice în livrabilele noastre.
+                    </p>
+                    <a href="/Servicii.html" class="learn-more" data-ro="Detalii" data-en="Details">Detalii</a>
                 </div>
                 <div class="service-item" data-aos="fade-up" data-aos-delay="200">
                     <i class="fas fa-tty" style="font-size: 24px;"></i>
-                    <h3>Consultanță</h3>
-                    <p>Oferim consultanță IT personalizată, axată pe obiectivele de business și specificul operațional al fiecărui partener. Analizăm structura existentă, identificăm provocările și propunem soluții concrete pentru optimizarea proceselor și a infrastructurii IT. Strategiile sunt dezvoltate împreună cu echipe dedicate, alese în funcție de complexitatea și domeniul proiectului. Venim cu o abordare actuală, bazată pe bune practici și trenduri din industrie, pentru ca partenerii noștri să ia decizii informate și sustenabile. Ne implicăm activ în fiecare etapă pentru a asigura direcția corectă a transformării digitale.</p>
-                    <a href="/Servicii.html" class="learn-more">Detalii</a>
+                    <h3 data-ro="Consultanță" data-en="Consulting">Consultanță</h3>
+                    <p data-ro="Oferim consultanță IT personalizată, axată pe obiectivele de business și specificul operațional al fiecărui partener. Analizăm structura existentă, identificăm provocările și propunem soluții concrete pentru optimizarea proceselor și a infrastructurii IT. Strategiile sunt dezvoltate împreună cu echipe dedicate, alese în funcție de complexitatea și domeniul proiectului. Venim cu o abordare actuală, bazată pe bune practici și trenduri din industrie, pentru ca partenerii noștri să ia decizii informate și sustenabile. Ne implicăm activ în fiecare etapă pentru a asigura direcția corectă a transformării digitale."
+                       data-en="We offer personalized IT consulting, focused on the business objectives and operational specifics of each partner. We analyze the existing structure, identify challenges, and propose concrete solutions for optimizing IT processes and infrastructure. Strategies are developed together with dedicated teams, chosen according to the project's complexity and domain. We come with a current approach, based on best practices and industry trends, so that our partners make informed and sustainable decisions. We are actively involved in every stage to ensure the correct direction of digital transformation.">
+                        Oferim consultanță IT personalizată, axată pe obiectivele de business și specificul operațional al fiecărui partener. Analizăm structura existentă, identificăm provocările și propunem soluții concrete pentru optimizarea proceselor și a infrastructurii IT. Strategiile sunt dezvoltate împreună cu echipe dedicate, alese în funcție de complexitatea și domeniul proiectului. Venim cu o abordare actuală, bazată pe bune practici și trenduri din industrie, pentru ca partenerii noștri să ia decizii informate și sustenabile. Ne implicăm activ în fiecare etapă pentru a asigura direcția corectă a transformării digitale.
+                    </p>
+                    <a href="/Servicii.html" class="learn-more" data-ro="Detalii" data-en="Details">Detalii</a>
                 </div>
                 <div class="service-item" data-aos="fade-up" data-aos-delay="300">
                     <i class="fas fa-business-time" style="font-size: 24px;"></i>
-                    <h3>Leasing de personal</h3>
-                    <p>Oferim specialiști IT adaptați nevoilor fiecărui partener prin servicii flexibile de leasing de personal. Selectăm atent resurse umane potrivite pentru orice proiect, luând în considerare cerințele tehnice, ritmul de lucru și cultura organizațională. Echipele sunt configurate rapid, punând accent pe competență, adaptabilitate și livrare constantă. Urmărim evoluția tehnologică și formăm specialiști capabili să se alinieze rapid la noile cerințe din industrie. Asigurăm suport continuu și transparență totală în toate colaborările, pentru a construi parteneriate de durată și a obține rezultate sustenabile.</p>
-                    <a href="/Servicii.html" class="learn-more">Detalii</a>
+                    <h3 data-ro="Leasing de personal" data-en="Staff Leasing">Leasing de personal</h3>
+                    <p data-ro="Oferim specialiști IT adaptați nevoilor fiecărui partener prin servicii flexibile de leasing de personal. Selectăm atent resurse umane potrivite pentru orice proiect, luând în considerare cerințele tehnice, ritmul de lucru și cultura organizațională. Echipele sunt configurate rapid, punând accent pe competență, adaptabilitate și livrare constantă. Urmărim evoluția tehnologică și formăm specialiști capabili să se alinieze rapid la noile cerințe din industrie. Asigurăm suport continuu și transparență totală în toate colaborările, pentru a construi parteneriate de durată și a obține rezultate sustenabile."
+                       data-en="We provide IT specialists tailored to each partner's needs through flexible staff leasing services. We carefully select suitable human resources for any project, considering technical requirements, work pace, and organizational culture. Teams are quickly configured, focusing on competence, adaptability, and consistent delivery. We monitor technological evolution and train specialists capable of quickly aligning with new industry requirements. We ensure continuous support and full transparency in all collaborations, to build lasting partnerships and achieve sustainable results.">
+                        Oferim specialiști IT adaptați nevoilor fiecărui partener prin servicii flexibile de leasing de personal. Selectăm atent resurse umane potrivite pentru orice proiect, luând în considerare cerințele tehnice, ritmul de lucru și cultura organizațională. Echipele sunt configurate rapid, punând accent pe competență, adaptabilitate și livrare constantă. Urmărim evoluția tehnologică și formăm specialiști capabili să se alinieze rapid la noile cerințe din industrie. Asigurăm suport continuu și transparență totală în toate colaborările, pentru a construi parteneriate de durată și a obține rezultate sustenabile.
+                    </p>
+                    <a href="/Servicii.html" class="learn-more" data-ro="Detalii" data-en="Details">Detalii</a>
                 </div>
             </div>
-            <a href="/Servicii.html" style="color: #f83545;">Vezi toate serviciile</a>
+            <a href="/Servicii.html" style="color: #f83545;" data-ro="Vezi toate serviciile" data-en="View all services">Vezi toate serviciile</a>
         </div>
     </section>
 
     <section class="section">
         <div class="container" data-aos="fade-up">
-            <h2>Ce Ne Recomandă?</h2>
-            <p> Suntem mai mult decât o companie de IT - suntem arhitecții succesului tău digital. Ne recomandă capacitatea de a înțelege profund nevoile tale unice și de a livra soluții tehnologice care generează rezultate concrete. Beneficiezi de o echipă de experți dedicați, abordare proactivă și angajamentul nostru constant pentru excelență și inovație. Cu CrossIT, tehnologia lucrează pentru tine.</p>
-            <a href="/Recomanda.html" style="color: #f83545;">Citeste testimoniale</a>
+            <h2 data-ro="Ce Ne Recomandă?" data-en="What Recommends Us?">Ce Ne Recomandă?</h2>
+            <p data-ro="Suntem mai mult decât o companie de IT - suntem arhitecții succesului tău digital. Ne recomandă capacitatea de a înțelege profund nevoile tale unice și de a livra soluții tehnologice care generează rezultate concrete. Beneficiezi de o echipă de experți dedicați, abordare proactivă și angajamentul nostru constant pentru excelență și inovație. Cu CrossIT, tehnologia lucrează pentru tine."
+               data-en="We are more than an IT company - we are the architects of your digital success. We are recommended by our ability to deeply understand your unique needs and deliver technological solutions that generate concrete results. You benefit from a dedicated team of experts, a proactive approach, and our constant commitment to excellence and innovation. With CrossIT, technology works for you.">
+                Suntem mai mult decât o companie de IT - suntem arhitecții succesului tău digital. Ne recomandă capacitatea de a înțelege profund nevoile tale unice și de a livra soluții tehnologice care generează rezultate concrete. Beneficiezi de o echipă de experți dedicați, abordare proactivă și angajamentul nostru constant pentru excelență și inovație. Cu CrossIT, tehnologia lucrează pentru tine.
+            </p>
+            <a href="/Recomanda.html" style="color: #f83545;" data-ro="Citeste testimoniale" data-en="Read testimonials">Citeste testimoniale</a>
         </div>
     </section>
 
     <section class="section dark-bg">
         <div class="container" data-aos="fade-up">
-            <h2>Leasing de Personal</h2>
-            <p>Pentru CrossIT, serviciul de leasing de personal IT înseamnă să oferi clienților acces direct la un pool talentat de profesioniști IT verificați și pregătiți. Le permitem să își scaleze rapid echipele pentru proiecte specifice, să acopere lipsa temporară de personal sau să aducă expertiză nișată fără a suporta costurile și complexitatea unei angajări permanente. CrossIT garantează calitatea personalului oferit, asigurând clienților flexibilitate, eficiență și acces la competențe tehnice de top pentru a-și atinge obiectivele.</p>
-            <a href="/Leasing.html" style="color: #f83545;">Descoperă Leasingul</a>
+            <h2 data-ro="Leasing de Personal" data-en="Staff Leasing">Leasing de Personal</h2>
+            <p data-ro="Pentru CrossIT, serviciul de leasing de personal IT înseamnă să oferi clienților acces direct la un pool talentat de profesioniști IT verificați și pregătiți. Le permitem să își scaleze rapid echipele pentru proiecte specifice, să acopere lipsa temporară de personal sau să aducă expertiză nișată fără a suporta costurile și complexitatea unei angajări permanente. CrossIT garantează calitatea personalului oferit, asigurând clienților flexibilitate, eficiență și acces la competențe tehnice de top pentru a-și atinge obiectivele."
+               data-en="For CrossIT, IT staff leasing means providing clients direct access to a talented pool of vetted and trained IT professionals. We enable them to quickly scale their teams for specific projects, cover temporary staff shortages, or bring in niche expertise without incurring the costs and complexity of permanent hiring. CrossIT guarantees the quality of the personnel provided, ensuring clients flexibility, efficiency, and access to top technical skills to achieve their goals.">
+                Pentru CrossIT, serviciul de leasing de personal IT înseamnă să oferi clienților acces direct la un pool talentat de profesioniști IT verificați și pregătiți. Le permitem să își scaleze rapid echipele pentru proiecte specifice, să acopere lipsa temporară de personal sau să aducă expertiză nișată fără a suporta costurile și complexitatea unei angajări permanente. CrossIT garantează calitatea personalului oferit, asigurând clienților flexibilitate, eficiență și acces la competențe tehnice de top pentru a-și atinge obiectivele.
+            </p>
+            <a href="/Leasing.html" style="color: #f83545;" data-ro="Descoperă Leasingul" data-en="Discover Staff Leasing">Descoperă Leasingul</a>
         </div>
     </section>
 
     <section class="section">
         <div class="container" data-aos="fade-up">
-            <h2>Parteneri</h2>
+            <h2 data-ro="Parteneri" data-en="Partners">Parteneri</h2>
             <div class="partners-grid" id="infiniteScroll--left">
                 <div class="partner-logo" data-aos="zoom-in">
                     <img src="Poze/parteneri/hp1.png" alt="Logo HP">
@@ -148,37 +182,72 @@
                     <img src="Poze/parteneri/Barracuda-Networks-logo.jpg" alt="Logo Partener 11">
                 </div>
             </div>
-<!--             <a href="/Parteneri.html" style="color: #f83545;">Vezi Toți Partenerii</a> -->
+            <a href="/Parteneri.html" style="color: #f83545;" data-ro="Vezi Toți Partenerii" data-en="View All Partners">Vezi Toți Partenerii</a>
         </div>
     </section>
 
     <section class="section dark-bg">
         <div class="container" data-aos="fade-up">
-            <h2>Contact</h2>
-            <p>În peisajul tehnologic actual, o infrastructură IT robustă și performantă nu mai este un lux, ci o necesitate critică pentru succesul oricărei afaceri. La CrossIT, înțelegem importanța vitală a unei fundații tehnologice solide și suntem aici pentru a te ajuta să o construiești și să o menții la cele mai înalte standarde.
+            <h2 data-ro="Contact" data-en="Contact">Contact</h2>
+            <p data-ro="În peisajul tehnologic actual, o infrastructură IT robustă și performantă nu mai este un lux, ci o necesitate critică pentru succesul oricărei afaceri. La CrossIT, înțelegem importanța vitală a unei fundații tehnologice solide și suntem aici pentru a te ajuta să o construiești și să o menții la cele mai înalte standarde. Indiferent dacă ai în vedere un proiect IT de infrastructură ambițios, te confrunți cu provocări în gestionarea sistemelor existente sau pur și simplu dorești să optimizezi performanța și securitatea infrastructurii tale, echipa noastră de experți este pregătită să îți ofere soluții personalizate și eficiente."
+               data-en="In today's technological landscape, a robust and high-performing IT infrastructure is no longer a luxury but a critical necessity for the success of any business. At CrossIT, we understand the vital importance of a solid technological foundation and are here to help you build and maintain it to the highest standards. Whether you are considering an ambitious IT infrastructure project, facing challenges in managing existing systems, or simply want to optimize your infrastructure's performance and security, our team of experts is ready to offer you personalized and effective solutions.">
+                În peisajul tehnologic actual, o infrastructură IT robustă și performantă nu mai este un lux, ci o necesitate critică pentru succesul oricărei afaceri. La CrossIT, înțelegem importanța vitală a unei fundații tehnologice solide și suntem aici pentru a te ajuta să o construiești și să o menții la cele mai înalte standarde.
 
-                Indiferent dacă ai în vedere un proiect IT de infrastructură ambițios, te confrunți cu provocări în gestionarea sistemelor existente sau pur și simplu dorești să optimizezi performanța și securitatea infrastructurii tale, echipa noastră de experți este pregătită să îți ofere soluții personalizate și eficiente.</p>
-            <a href="/contact.html" class="button primary">Contactează-ne Acum</a>
+                Indiferent dacă ai în vedere un proiect IT de infrastructură ambițios, te confrunți cu provocări în gestionarea sistemelor existente sau pur și simplu dorești să optimizezi performanța și securitatea infrastructurii tale, echipa noastră de experți este pregătită să îți ofere soluții personalizate și eficiente.
+            </p>
+            <a href="/contact.html" class="button primary" data-ro="Contactează-ne Acum" data-en="Contact Us Now">Contactează-ne Acum</a>
         </div>
     </section>
 
-<!--     <div id="google_translate_element" style="display: flex; justify-self: center; align-self: center;" data-aos="fade-up"></div> -->
-    
     <footer data-aos="fade-in">
         <div class="container">
-            <p>&copy; 2025 CrossIt. Toate drepturile rezervate.</p>
+            <p data-ro="&copy; 2025 CrossIt. Toate drepturile rezervate." data-en="&copy; 2025 CrossIt. All rights reserved.">&copy; 2025 CrossIt. Toate drepturile rezervate.</p>
         </div>
     </footer>
 
-    <script type="text/javascript">
-    function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-    }
-    </script>
-
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        const roFlag = document.getElementById('roFlag');
+        const enFlag = document.getElementById('enFlag');
+        let currentLanguage = 'ro';
+
+        function translatePage(targetLang) {
+            const elementsToTranslate = document.querySelectorAll('[data-ro], [data-en]');
+
+            if (targetLang === 'en') {
+                elementsToTranslate.forEach(element => {
+                    if (element.dataset.en !== undefined) {
+                        element.textContent = element.dataset.en;
+                    }
+                });
+                document.documentElement.lang = 'en';
+                currentLanguage = 'en';
+                enFlag.style.display = 'none';
+                roFlag.style.display = 'inline-block';
+            } else {
+                elementsToTranslate.forEach(element => {
+                    if (element.dataset.ro !== undefined) {
+                        element.textContent = element.dataset.ro;
+                    }
+                });
+                document.documentElement.lang = 'ro';
+                currentLanguage = 'ro';
+                enFlag.style.display = 'inline-block';
+                roFlag.style.display = 'none';
+            }
+        }
+
+        enFlag.addEventListener('click', () => translatePage('en'));
+        roFlag.addEventListener('click', () => translatePage('ro'));
+
+        if (currentLanguage === 'ro') {
+            enFlag.style.display = 'inline-block';
+            roFlag.style.display = 'none';
+        } else {
+            enFlag.style.display = 'none';
+            roFlag.style.display = 'inline-block';
+        }
+    </script>
     <script src="MainPage.js"></script>
 </body>
 </html>
