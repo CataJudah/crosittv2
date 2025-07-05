@@ -125,7 +125,7 @@ ul li {
 .image-text-grid img {
     width: 100%;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(206, 13, 13, 0.4);
+    /* box-shadow: 0 8px 20px rgba(206, 13, 13, 0.4); */
 }
 
 .image-text-grid div ul {
