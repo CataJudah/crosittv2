@@ -168,6 +168,8 @@ nav ul li a:hover {
   position: relative;
   margin-top: 20px;
 
+  background: linear-gradient(130deg, rgba(255, 255, 255, 0) 0.05%, rgba(255, 255, 255, 0.03) 51.04%, rgba(255, 255, 255, 0) 99.95%);
+
   border: 2px solid #252525;
   padding: 30px;
   border-radius: 8px;
