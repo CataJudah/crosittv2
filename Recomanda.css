@@ -158,10 +158,11 @@ ul li {
 
 #certificari .container .services-grid img {
     width: 100%;
+    transition: .32s ease-in-out;
 }
 
 #certificari .container .services-grid img:hover {
-    scale: 1.1;
+    scale: 1.05;
 }
 
 .services-grid {
