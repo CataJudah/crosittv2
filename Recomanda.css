@@ -160,6 +160,10 @@ ul li {
     width: 100%;
 }
 
+#certificari .container .services-grid img:hover {
+    scale: 1.1;
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
